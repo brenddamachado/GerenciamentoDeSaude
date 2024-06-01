@@ -24,3 +24,6 @@ INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALU
 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
 ('88888888888', 'Rafael Lima', 'Rua das Flores, 20', '1988-12-05', '21222222222', 'rafael.lima@gmail.com');
+
+INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
+('55555555555', 'Aline Costa', 'Rua das Palmeiras, 150', '1980-09-25', '21555555555', 'aline.costa@outlook.com');
