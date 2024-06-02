@@ -73,3 +73,7 @@ GROUP BY Endereco;
 --Listar todos os pacientes ordenados por nome
 SELECT * FROM Paciente
 ORDER BY Nome;
+
+--Buscar pacientes com data de nascimento após 1990
+SELECT * FROM Paciente
+WHERE Data_Nascimento > '1990-01-01';
