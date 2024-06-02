@@ -43,3 +43,6 @@ INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALU
 --INSERTS MÉDICOS
 INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) VALUES
 ('12345-SP', 'Dr. João Silva', 'Cardiologia', '123456789', 'joao.silva@example.com', '1980-05-10');
+
+INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) VALUES
+('67890-RJ', 'Dra. Maria Oliveira', 'Pediatria', '987654321', 'maria.oliveira@example.com', '1975-03-22');
