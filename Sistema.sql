@@ -80,3 +80,7 @@ WHERE Data_Nascimento > '1990-01-01';
 
 --contar o número de pacientes cadastrados
 SELECT COUNT() AS Total_Pacientes FROM Paciente;
+
+--ordenar os medicos pela especialidade
+SELECT FROM Medico
+ORDER BY Especialidade;
