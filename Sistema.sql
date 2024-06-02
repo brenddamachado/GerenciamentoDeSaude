@@ -52,3 +52,6 @@ INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) 
 
 INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) VALUES
 ('33445-BA', 'Dra. Ana Souza', 'Neurologia', '321654987', 'ana.souza@example.com', '1979-11-30');
+
+INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) VALUES
+('55667-PR', 'Dr. Pedro Lima', 'Ortopedia', '654123789', 'pedro.lima@example.com', '1985-03-05');
