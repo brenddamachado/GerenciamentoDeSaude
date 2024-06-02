@@ -64,3 +64,8 @@ INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) 
 SELECT especialidade, COUNT(*) AS Numero_de_Medicos
 FROM Medico
 GROUP BY especialidade;
+
+--os registros pela coluna Endereco e conta o número de pacientes no endereco 
+SELECT Endereco, COUNT(*) AS Numero_de_Pacientes
+FROM Paciente
+GROUP BY Endereco;
