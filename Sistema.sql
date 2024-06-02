@@ -55,3 +55,12 @@ INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) 
 
 INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) VALUES
 ('55667-PR', 'Dr. Pedro Lima', 'Ortopedia', '654123789', 'pedro.lima@example.com', '1985-03-05');
+
+
+
+--CONSULTAS E FILTRAGENS NO BD
+
+-- contagem de médicos por especialidade 
+SELECT especialidade, COUNT(*) AS Numero_de_Medicos
+FROM Medico
+GROUP BY especialidade;
