@@ -14,6 +14,14 @@ CREATE TABLE Paciente (
     Email VARCHAR(100)
 );
 
+CREATE TABLE Medico (
+    Crm VARCHAR(100) NOT NULL PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Especialidade VARCHAR(50) NOT NULL,
+    Telefone VARCHAR(15),
+    Email VARCHAR(100),
+    Data_nascimento DATE
+);
 
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
