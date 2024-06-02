@@ -69,3 +69,7 @@ GROUP BY especialidade;
 SELECT Endereco, COUNT(*) AS Numero_de_Pacientes
 FROM Paciente
 GROUP BY Endereco;
+
+--Listar todos os pacientes ordenados por nome
+SELECT * FROM Paciente
+ORDER BY Nome;
