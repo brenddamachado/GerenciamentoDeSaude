@@ -110,3 +110,7 @@ SELECT COUNT() AS Total_Pacientes FROM Paciente;
 --ordenar os medicos pela especialidade
 SELECT FROM Medico
 ORDER BY Especialidade;
+
+--Buscar medico pela especialidade 
+SELECT * FROM Medico
+WHERE Especialidade = 'Cardiologia';
