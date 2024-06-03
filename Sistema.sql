@@ -78,6 +78,9 @@ INSERT INTO Consulta (Data_Consulta, Hora, Especialidade, Cpf_Paciente, Crm_Medi
 INSERT INTO Consulta (Data_Consulta, Hora, Especialidade, Cpf_Paciente, Crm_Medico) VALUES
 ('2019-02-10', '11:33:45', 'Pediatria', '88888888888', '67890-RJ');
 
+INSERT INTO Consulta (Data_Consulta, Hora, Especialidade, Cpf_Paciente, Crm_Medico) VALUES
+('2022-06-15', '09:00:00', 'Neurologia', '55555555555', '33445-BA');
+
 
 --CONSULTAS E FILTRAGENS NO BD
 
