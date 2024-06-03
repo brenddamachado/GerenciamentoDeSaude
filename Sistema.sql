@@ -163,3 +163,7 @@ SELECT Especialidade, COUNT() AS Total_Consultas
 FROM Consulta
 GROUP BY Especialidade
 HAVING COUNT() >= 2;
+
+--Listar exames realizados por um médico específico:
+SELECT * FROM Exame
+WHERE crm_medico = '12345-SP';
