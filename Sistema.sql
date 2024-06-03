@@ -167,3 +167,8 @@ HAVING COUNT() >= 2;
 --Listar exames realizados por um médico específico:
 SELECT * FROM Exame
 WHERE crm_medico = '12345-SP';
+
+--Contar exames realizados por tipo de exame:
+SELECT tipo_exame, COUNT(*) AS Numero_de_Exames
+FROM Exame
+GROUP BY tipo_exame;
