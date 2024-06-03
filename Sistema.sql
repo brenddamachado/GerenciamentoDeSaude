@@ -104,6 +104,9 @@ INSERT INTO Consulta (Data_Consulta, Hora, Especialidade, Cpf_Paciente, Crm_Medi
 INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medicas, diagnostico, tratamento, medicamentos_prescritos, observacoes, crm_medico) VALUES
 ('00000000000', 1, '2023-04-20', 'Paciente apresenta bom estado geral.', 'Hipertensão controlada', 'Manter medicação', 'Atenolol 50mg', 'Nenhuma', '12345-SP');
 
+INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medicas, diagnostico, tratamento, medicamentos_prescritos, observacoes, crm_medico) VALUES
+('11111111111', 2, '2021-10-04', 'Paciente com lesões na pele.', 'Dermatite atópica', 'Uso de pomada específica', 'Hidrocortisona', 'Revisão em 30 dias', '11223-MG');
+
 --CONSULTAS E FILTRAGENS NO BD
 
 -- contagem de médicos por especialidade 
