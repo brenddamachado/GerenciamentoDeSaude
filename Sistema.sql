@@ -113,6 +113,10 @@ INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medi
 INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medicas, diagnostico, tratamento, medicamentos_prescritos, observacoes, crm_medico) VALUES
 ('55555555555', 4, '2022-06-15', 'Paciente com enxaqueca frequente.', 'Enxaqueca crônica', 'Uso de analgésicos', 'Sumatriptano', 'Monitorar sintomas', '33445-BA');
 
+INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medicas, diagnostico, tratamento, medicamentos_prescritos, observacoes, crm_medico) VALUES
+('66666666666', 5, '2023-01-22', 'Dor no joelho esquerdo.', 'Artrose', 'Fisioterapia e medicação', 'Ibuprofeno', 'Retorno em 3 meses', '55667-PR');
+
+
 
 --CONSULTAS E FILTRAGENS NO BD
 
