@@ -114,3 +114,8 @@ ORDER BY Especialidade;
 --Buscar medico pela especialidade 
 SELECT * FROM Medico
 WHERE Especialidade = 'Cardiologia';
+
+--Contar o número de médicos por especialidade
+SELECT Especialidade, COUNT() AS Total_Medicos
+FROM Medico
+GROUP BY Especialidade;
