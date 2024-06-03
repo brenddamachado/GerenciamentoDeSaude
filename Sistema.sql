@@ -23,6 +23,17 @@ CREATE TABLE Medico (
     Data_nascimento DATE
 );
 
+CREATE TABLE Consulta (
+    Id_Consulta INT PRIMARY KEY AUTO_INCREMENT,
+    Data_Consulta DATE,
+    Hora TIME,
+    Especialidade VARCHAR(100),
+    Cpf_Paciente VARCHAR(11) NOT NULL,
+    Crm_Medico VARCHAR(100) NOT NULL,
+    FOREIGN KEY (Cpf_Paciente) REFERENCES Paciente(Cpf),
+    FOREIGN KEY (Crm_Medico) REFERENCES Medico(Crm)
+);
+
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
 ('00000000000', 'Brenda Machado', 'Rua das Flores, 20', '2002-12-09', '21000000000', 'brenda1@gmail.com');
