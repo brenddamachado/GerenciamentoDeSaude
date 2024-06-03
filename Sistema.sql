@@ -34,6 +34,22 @@ CREATE TABLE Consulta (
     FOREIGN KEY (Crm_Medico) REFERENCES Medico(Crm)
 );
 
+CREATE TABLE Prontuario (
+    id_prontuario INT PRIMARY KEY AUTO_INCREMENT,
+    cpf_paciente VARCHAR(11) NOT NULL,
+    id_consulta INT,
+    data_registro DATE NOT NULL,
+    anotacoes_medicas TEXT,
+    diagnostico VARCHAR(255),
+    tratamento TEXT,
+    medicamentos_prescritos TEXT,
+    observacoes TEXT,
+    crm_medico VARCHAR(100),
+    FOREIGN KEY (cpf_paciente) REFERENCES Paciente(Cpf),
+    FOREIGN KEY (id_consulta) REFERENCES Consulta(Id_Consulta),
+    FOREIGN KEY (crm_medico) REFERENCES Medico(Crm)
+)
+
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
 ('00000000000', 'Brenda Machado', 'Rua das Flores, 20', '2002-12-09', '21000000000', 'brenda1@gmail.com');
