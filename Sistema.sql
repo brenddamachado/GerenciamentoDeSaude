@@ -67,7 +67,10 @@ INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) 
 INSERT INTO Medico (Crm, Nome, Especialidade, Telefone, Email, Data_nascimento) VALUES
 ('55667-PR', 'Dr. Pedro Lima', 'Ortopedia', '654123789', 'pedro.lima@example.com', '1985-03-05');
 
+--Insert consulta
 
+INSERT INTO Consulta (Data_Consulta, Hora, Especialidade, Cpf_Paciente, Crm_Medico) VALUES
+('2023-04-20', '15:00:23', 'Cardiologia', '00000000000', '12345-SP');
 
 --CONSULTAS E FILTRAGENS NO BD
 
