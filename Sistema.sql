@@ -75,6 +75,10 @@ INSERT INTO Consulta (Data_Consulta, Hora, Especialidade, Cpf_Paciente, Crm_Medi
 INSERT INTO Consulta (Data_Consulta, Hora, Especialidade, Cpf_Paciente, Crm_Medico) VALUES
 ('2021-10-04', '08:16:19', 'Dermatologia', '11111111111', '11223-MG');
 
+INSERT INTO Consulta (Data_Consulta, Hora, Especialidade, Cpf_Paciente, Crm_Medico) VALUES
+('2019-02-10', '11:33:45', 'Pediatria', '88888888888', '67890-RJ');
+
+
 --CONSULTAS E FILTRAGENS NO BD
 
 -- contagem de médicos por especialidade 
