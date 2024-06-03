@@ -157,3 +157,9 @@ GROUP BY Especialidade;
 --medicamentos com uma dosagem específica
 SELECT FROM Medicamentos
 WHERE Dosagem = '500mg';
+
+--Listar especialidades com 2 ou mais consultas
+SELECT Especialidade, COUNT() AS Total_Consultas
+FROM Consulta
+GROUP BY Especialidade
+HAVING COUNT() >= 2;
