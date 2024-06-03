@@ -119,3 +119,7 @@ WHERE Especialidade = 'Cardiologia';
 SELECT Especialidade, COUNT() AS Total_Medicos
 FROM Medico
 GROUP BY Especialidade;
+
+--medicamentos com uma dosagem específica
+SELECT FROM Medicamentos
+WHERE Dosagem = '500mg';
