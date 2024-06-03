@@ -107,6 +107,10 @@ INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medi
 INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medicas, diagnostico, tratamento, medicamentos_prescritos, observacoes, crm_medico) VALUES
 ('11111111111', 2, '2021-10-04', 'Paciente com lesões na pele.', 'Dermatite atópica', 'Uso de pomada específica', 'Hidrocortisona', 'Revisão em 30 dias', '11223-MG');
 
+INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medicas, diagnostico, tratamento, medicamentos_prescritos, observacoes, crm_medico) VALUES
+('88888888888', 3, '2019-02-10', 'Consulta pediátrica de rotina.', 'Saudável', 'Manter alimentação balanceada', 'Vitamina D', 'Retorno anual', '67890-RJ');
+
+
 --CONSULTAS E FILTRAGENS NO BD
 
 -- contagem de médicos por especialidade 
