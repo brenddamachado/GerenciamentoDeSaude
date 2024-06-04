@@ -86,6 +86,12 @@ WHERE data_exame BETWEEN '2023-01-01' AND '2023-12-31';
 SELECT * FROM Medicamentos
 WHERE Frequencia LIKE '%vezes%';
 
+-- Contar o número de medicamentos por dosagem:
+SELECT Dosagem, COUNT(*) AS Numero_de_Medicamentos
+FROM Medicamentos
+GROUP BY Dosagem;
+
+
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
 ('00000000000', 'Brenda Machado', 'Rua das Flores, 20', '2002-12-09', '21000000000', 'brenda1@gmail.com');
