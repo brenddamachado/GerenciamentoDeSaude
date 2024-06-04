@@ -50,6 +50,14 @@ CREATE TABLE Prontuario (
     FOREIGN KEY (crm_medico) REFERENCES Medico(Crm)
 )
 
+    CREATE TABLE Medicamentos (
+    ID_Medicamento INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(100),
+    Dosagem VARCHAR(100),
+    Frequencia VARCHAR(100),
+    Prescricoes VARCHAR(100)
+);
+
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
 ('00000000000', 'Brenda Machado', 'Rua das Flores, 20', '2002-12-09', '21000000000', 'brenda1@gmail.com');
