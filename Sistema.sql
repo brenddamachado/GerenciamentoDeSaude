@@ -80,6 +80,11 @@ INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
 SELECT * FROM Exame
 WHERE data_exame BETWEEN '2023-01-01' AND '2023-12-31';
 
+--Consultas para a Tabela Medicamentos
+--Listar medicamentos com frequência de uso maior que uma vez ao dia:
+
+SELECT * FROM Medicamentos
+WHERE Frequencia LIKE '%vezes%';
 
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
