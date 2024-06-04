@@ -72,6 +72,10 @@ INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
 INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
 ('Atenolol', '50mg', '1 vez ao dia', 'Tomar pela manhã');
 
+INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
+('Vitamina D', '2000 UI', '1 vez ao dia', 'Tomar junto com a refeição');
+
+
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
 ('00000000000', 'Brenda Machado', 'Rua das Flores, 20', '2002-12-09', '21000000000', 'brenda1@gmail.com');
