@@ -75,6 +75,11 @@ INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
 INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
 ('Vitamina D', '2000 UI', '1 vez ao dia', 'Tomar junto com a refeição');
 
+--Buscar exames realizados em um intervalo de datas específico:
+
+SELECT * FROM Exame
+WHERE data_exame BETWEEN '2023-01-01' AND '2023-12-31';
+
 
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
