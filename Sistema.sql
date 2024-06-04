@@ -67,7 +67,10 @@ INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
 ('Ibuprofeno', '600mg', '2 vezes ao dia', 'Tomar com bastante água');
 
 INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
-('Amoxicilina', '500mg', '3 vezes ao dia', 'Tomar de 8 em 8 horas');
+('Amoxicilina', '500mg', '3 vezes ao dia', 'Tomar de 8 em 8 horas'); 
+
+INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
+('Atenolol', '50mg', '1 vez ao dia', 'Tomar pela manhã');
 
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
