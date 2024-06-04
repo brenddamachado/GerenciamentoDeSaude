@@ -62,6 +62,9 @@ CREATE TABLE Prontuario (
 
 INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
 ('Paracetamol', '500mg', '1 vez ao dia', 'Tomar após as refeições');
+
+INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
+('Ibuprofeno', '600mg', '2 vezes ao dia', 'Tomar com bastante água');
 --INSERTS PACIENTES 
 INSERT INTO Paciente (Cpf, Nome, Endereco, Data_Nascimento, Celular, Email) VALUES 
 ('00000000000', 'Brenda Machado', 'Rua das Flores, 20', '2002-12-09', '21000000000', 'brenda1@gmail.com');
