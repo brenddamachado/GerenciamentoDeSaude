@@ -172,6 +172,21 @@ INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medi
 INSERT INTO Prontuario (cpf_paciente, id_consulta, data_registro, anotacoes_medicas, diagnostico, tratamento, medicamentos_prescritos, observacoes, crm_medico) VALUES
 ('66666666666', 5, '2023-01-22', 'Dor no joelho esquerdo.', 'Artrose', 'Fisioterapia e medicação', 'Ibuprofeno', 'Retorno em 3 meses', '55667-PR');
 
+--os insert exames
+INSERT INTO Exame (cpf_paciente, id_consulta, tipo_exame, data_exame, resultado, observacoes, crm_medico) VALUES
+('55555555555', 4, 'Ressonância magnética', '2022-06-16', 'Enxaqueca detectada', 'Recomendar neurologista', '33445-BA');
+
+INSERT INTO Exame (cpf_paciente, id_consulta, tipo_exame, data_exame, resultado, observacoes, crm_medico) VALUES
+('66666666666', 5, 'Raio-X do joelho', '2023-01-23', 'Artrose confirmada', 'Iniciar fisioterapia', '55667-PR');
+
+INSERT INTO Exame (cpf_paciente, id_consulta, tipo_exame, data_exame, resultado, observacoes, crm_medico) VALUES
+('00000000000', 1, 'Teste de esforço', '2023-04-22', 'Resultados normais', 'Paciente sem restrições', '12345-SP');
+
+INSERT INTO Exame (cpf_paciente, id_consulta, tipo_exame, data_exame, resultado, observacoes, crm_medico) VALUES
+('11111111111', 2, 'Exame de pele', '2021-10-06', 'Resultados positivos para dermatite', 'Continuar com o tratamento prescrito', '11223-MG');
+
+INSERT INTO Exame (cpf_paciente, id_consulta, tipo_exame, data_exame, resultado, observacoes, crm_medico) VALUES
+('88888888888', 3, 'Teste de visão', '2019-02-12', 'Visão dentro dos parâmetros normais', 'Nenhuma intervenção necessária', '67890-RJ');
 
 
 --CONSULTAS E FILTRAGENS NO BD
