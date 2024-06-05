@@ -243,3 +243,20 @@ WHERE crm_medico = '12345-SP';
 SELECT tipo_exame, COUNT(*) AS Numero_de_Exames
 FROM Exame
 GROUP BY tipo_exame;
+
+SELECT * FROM Medicamentos
+WHERE Dosagem LIKE '%mg%';
+
+
+-- Listar médicos com telefone não informado:
+SELECT * FROM Medico
+WHERE Telefone IS NULL OR Telefone = '';
+-- Buscar médicos com nome começando com 'Dr.':
+
+SELECT * FROM Medico
+WHERE Nome LIKE 'Dr.%';
+-- Contar o número de médicos por estado (considerando que o CRM possui o estado):
+
+SELECT SUBSTRING_INDEX(Crm, '-', -1) AS Estado, COUNT(*) AS Numero_de_Medicos
+FROM Medico
+GROUP BY Estado;
