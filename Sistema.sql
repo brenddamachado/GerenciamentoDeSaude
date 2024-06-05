@@ -260,3 +260,8 @@ WHERE Nome LIKE 'Dr.%';
 SELECT SUBSTRING_INDEX(Crm, '-', -1) AS Estado, COUNT(*) AS Numero_de_Medicos
 FROM Medico
 GROUP BY Estado;
+
+--Contar o número de prontuários registrados por médico:
+SELECT crm_medico, COUNT(*) AS Total_Prontuarios
+FROM Prontuario
+GROUP BY crm_medico;
