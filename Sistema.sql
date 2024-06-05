@@ -58,6 +58,20 @@ CREATE TABLE Prontuario (
     Prescricoes VARCHAR(100)
 );
 
+
+CREATE TABLE Exame (
+    id_exame INT PRIMARY KEY AUTO_INCREMENT,
+    cpf_paciente VARCHAR(11) NOT NULL,
+    id_consulta INT,
+    tipo_exame VARCHAR(100) NOT NULL,
+    data_exame DATE NOT NULL,
+    resultado TEXT,
+    observacoes TEXT,
+    crm_medico VARCHAR(100),
+    FOREIGN KEY (cpf_paciente) REFERENCES Paciente(Cpf),
+    FOREIGN KEY (id_consulta) REFERENCES Consulta(Id_Consulta),
+    FOREIGN KEY (crm_medico) REFERENCES Medico(Crm)
+);
 --tabela medicamentos
 
 INSERT INTO Medicamentos (Nome, Dosagem, Frequencia, Prescricoes) VALUES
