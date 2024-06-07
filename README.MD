@@ -16,7 +16,10 @@ Esse projeto tem como objetivo criar uma ferramenta que torne mais fácil seguir
 
 ## Pré-requisitos &#x1F528; 
 
-- SQL
+- Diagrama Conceitual 
+- Diagrama de Entidade e Relacionamento
+- Gráficos de Consultas SQL
+- Código SQL
 
 ## Instalação &#x1F527;
 
