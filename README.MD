@@ -6,12 +6,12 @@ Esse projeto tem como objetivo criar uma ferramenta que torne mais fácil seguir
 
 ```
 ├── src
-├── README.md
-├── codigo do modelo ER.sql
-├── diagrama_relacional.png
 ├── Modelo_Conceitual_Projeto_M3.png
+├── README.md
 ├── Sistema.sql
-└── Slide de apresentação - saúde completa.pdf
+├── Slide de apresentação - saúde completa.pdf
+├── codigo do modelo ER.sql
+└── diagrama_relacional.png 
 ```
 
 ## Pré-requisitos &#x1F528; 
