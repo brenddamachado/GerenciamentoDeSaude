@@ -1,9 +1,9 @@
 <h1>Saúde Completa &#x1F7E2;<h1>
 <hr><br>
 
-<p>
+<h2>
 Esse projeto tem como objetivo criar uma ferramenta que torne mais fácil seguir tratamentos de saúde e melhorar a comunicação entre pacientes e profissionais da saúde. Com um banco de dados bem completo, o sistema ajuda a gerenciar de forma eficiente todas as informações importantes para a saúde do usuário.
-</p>
+</h2>
 <hr><br>
 
 <h1>Estrutura de Arquivos &#x1F4C1;</h1>
