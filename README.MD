@@ -83,5 +83,5 @@ Se desejar contribuir com o projeto, siga os passos abaixo:
 
 ## Licença &#x1F469;&#x1F3FF; &#x1F468;&#x1F3FF;
 
-Este projeto foi feito pelo Squad 3. 
+© Este projeto foi feito pelo Squad 3. 
 
