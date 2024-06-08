@@ -20,6 +20,7 @@ Esse projeto tem como objetivo criar uma ferramenta que torne mais fácil seguir
 - Diagrama de Entidade e Relacionamento
 - Gráficos de Consultas SQL
 - Código SQL
+- Slide de Apresentação
 
 ## Instalação &#x1F527;
 
