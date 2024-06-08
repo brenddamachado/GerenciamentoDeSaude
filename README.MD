@@ -39,25 +39,24 @@ Esse projeto tem como objetivo criar uma ferramenta que torne mais fácil seguir
 
 Para iniciar o Banco de Dados:
 
-```
- Em seu  MySQL Worbrench utilize o código 'CREATE DATABASE SaúdeCompleta;'; 
-```
 
-```
-USE SaúdeCompleta; 
-```
+- Em seu  MySQL Worbrench utilize o código 'CREATE DATABASE SaúdeCompleta;'; 
 
-```
-Utilize o código SQL com as tabela e inserts que podem ser encontrados no arquivo Sistema.sql; 
-```
 
-```
-Coloque os código SQL em seu MySQL Worbrench; 
-```
 
-```
-Após o código estár colado clique no símbolo de Ráio(executar) para ver com mais detalhes o banco de dados; 
-```
+- USE SaúdeCompleta; 
+
+
+
+- Utilize o código SQL com as tabela e inserts que podem ser encontrados no arquivo Sistema.sql; 
+
+
+
+- Coloque os código SQL em seu MySQL Worbrench; 
+
+
+- Após o código estár colado clique no símbolo de Ráio(executar) para ver com mais detalhes o banco de dados; 
+
 
 ## Endpoints
 
